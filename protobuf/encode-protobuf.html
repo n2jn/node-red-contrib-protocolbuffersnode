@@ -1,0 +1,37 @@
+<script type="text/javascript">
+    RED.nodes.registerType('encode-protobuf',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+	    protofile: {value:""},
+            messagetype: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"encode-protobuf";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="encode-protobuf">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-protofile"><i class="icon-tag"></i> Proto File</label>
+        <input type="text" id="node-input-protofile" placeholder="Proto File">
+    </div>
+    <div class="form-row">
+        <label for="node-input-messagetype"><i class="icon-tag"></i> Message Type</label>
+        <input type="text" id="node-input-messagetype" placeholder="Message Type">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="lower-case">
+    <p>Encodes an incoming message payload according to a Google Protocol Buffers .proto file and the supplied message type</p>
+</script>
+

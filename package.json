@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "node-red-contrib-protocolbuffersnode",
+      "/home/dejean/.node-red"
+    ]
+  ],
+  "_from": "../../home/dejean/install/node-red-contrib-protocolbuffersnode",
+  "_id": "node-red-contrib-protocolbuffersnode@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/node-red-contrib-protocolbuffersnode",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/node-red-contrib-protocolbuffersnode-0.0.1.tgz_1459789850420_0.29419628949835896"
+  },
+  "_npmUser": {
+    "email": "ajlennon@dynamicdevices.co.uk",
+    "name": "ajlennon"
+  },
+  "_npmVersion": "1.4.21",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "node-red-contrib-protocolbuffersnode",
+    "raw": "node-red-contrib-protocolbuffersnode",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../../home/dejean/install/node-red-contrib-protocolbuffersnode",
+  "_shasum": "2f00269c642b1eee1aa6421d2db5a98fba66fb72",
+  "_shrinkwrap": null,
+  "_spec": "node-red-contrib-protocolbuffersnode",
+  "_where": "/home/dejean/.node-red",
+  "author": {
+    "name": "Alex J Lennon",
+    "email": "ajlennon@dynamicdevices.co.uk"
+  },
+  "dependencies": {
+    "protobufjs": "^5.0.1"
+  },
+  "description": "Encoder and Decoder nodes for Protocol Buffers",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7e53a2e4d2511c191b52e9e92a76ac32943f5627",
+    "tarball": "https://registry.npmjs.org/node-red-contrib-protocolbuffersnode/-/node-red-contrib-protocolbuffersnode-0.0.1.tgz"
+  },
+  "keywords": [
+    "node-red",
+    "protobuf"
+  ],
+  "maintainers": [
+    {
+      "name": "ajlennon",
+      "email": "ajlennon@dynamicdevices.co.uk"
+    }
+  ],
+  "name": "node-red-contrib-protocolbuffersnode",
+  "node-red": {
+    "nodes": {
+      "decode-protobuf": "protobuf/decode-protobuf.js",
+      "encode-protobuf": "protobuf/encode-protobuf.js"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "0.0.1"
+}
